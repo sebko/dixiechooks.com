@@ -1,0 +1,31 @@
+/*
+ Theme Name:   dixiechooks
+ Author:       Sebastian Key
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ Template:     morphology-lite
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/* resets */
+
+#footer-wrapper {
+  margin-bottom: 0;
+}
+
+/* main styles */
+
+.content-width {
+  min-height: calc(100vh - 64.34px - 32px - 172px);
+}
+
+@media (min-width: 48em) {
+  .content-width {
+    min-height: calc(100vh - 77px);
+  }
+}
+
+.site-title {
+  font-family: 'Cormorant', serif;
+}
