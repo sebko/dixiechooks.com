@@ -1,7 +1,7 @@
 <?php
 function wpb_add_google_fonts() {
 
-wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Cormorant:700', false );
+wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Pinyon+Script', false );
 }
 function my_theme_enqueue_styles() {
 

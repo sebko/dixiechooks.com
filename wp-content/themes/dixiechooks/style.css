@@ -27,5 +27,38 @@
 }
 
 .site-title {
-  font-family: 'Cormorant', serif;
+  font-family: 'Pinyon Script', serif;
+  text-transform: normal;
 }
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, Arial, sans-serif;
+}
+
+.sidebar {
+  background-image: url("http://localhost:8888/dixiechooks.com/wp-content/uploads/2017/10/vintage-concrete.png");
+  background-repeat: repeat !important;
+}
+
+.entry-title {
+  font-family: 'Pinyon Script', serif;
+}
+
+.custom-logo {
+  border: 6px solid #beb27a;
+  margin-bottom: 1.25rem;
+  border-radius: 6px;
+}
+
+.main-navigation ul li a {
+  font-family: 'Pinyon Script', serif;
+  text-transform: none;
+  font-size: 1.4rem;
+}
+
+/* Large devices (desktops, 1088px and up) */
+@media (min-width: 68em) {
+	.site-title {
+		text-transform: none;
+	}
+ }
